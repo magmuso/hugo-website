@@ -1,4 +1,11 @@
 baseurl = "https://magniffico.github.io/"
-languageCode = "en-us"
-title = "Martynas site"
+languageCode = "en-gb"
+title = "MM Workshop"
 theme = "purehugo"
+Paginate = 10
+
+[params]
+  githubName = "magniffico"
+  linkedinLink= "https://www.linkedin.com/in/martynas-melninkas-1016a45a"
+  description = "This is a blog by Martynas Melninkas. From software to hardware to politics to life."
+  google_analytics = "UA-82069584-1"
