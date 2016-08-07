@@ -1,0 +1,4 @@
+baseurl = "https://magniffico.github.io/"
+languageCode = "en-us"
+title = "Martynas site"
+theme = "purehugo"
