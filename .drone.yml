@@ -1,0 +1,8 @@
+build:
+  image: debian
+  commands:
+    - git clone git@github.com:magniffico/magniffico.github.io.git public
+    - wget https://github.com/spf13/hugo/releases/download/v0.16/hugo_0.16-1_amd64.deb
+    - sudo dpkg -i hugo_0.16-1_amd64.deb
+    - git submodule update --init
+    - hugo -v
